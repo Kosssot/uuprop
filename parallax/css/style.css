@@ -1,0 +1,41 @@
+body{
+	margin: 0 ;
+}
+section{
+	height: 100vh;
+	background-color: #666;
+	position: relative;
+	overflow: hidden;
+}
+.sect_1{
+	background-image: url(../images/img_1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.heder_text {
+    color: #fff;
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 240px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: -20px;
+}
+.sect_2 img{
+	position: absolute;
+	width: 100%;
+	top: -500px;
+}
+.sect_3 img{
+	position: absolute;
+	width: 100%;
+	top: -600px;
+}
