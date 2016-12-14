@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Arimo';
+	src: url('../fonts/Arimo.eot');
+	src: url('../fonts/Arimo.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Arimo.woff') format('woff'),
+		 url('../fonts/Arimo.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+body{
+background-color: #fff;	
+}
+a{
+	color: #fff;
+}
+.info_block{
+	position: relative;
+	height: 472px;
+	/*background-image: url(../img/bg/bg_pixel.png);	*/
+}
+.top_overlay{
+	background-image: url(../img/bg/bg_head.jpg);
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	-webkit-background-size: cover;
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+header{
+	height: 150px;
+	background-image: -webkit-linear-gradient(rgba(115,196,138,0.3), rgba(115,196,138,0.7));
+	background-image: -o-linear-gradient(rgba(115,196,138,0.3), rgba(115,196,138,0.7));
+	background-image: linear-gradient(rgba(115,196,138,0.3), rgba(115,196,138,0.7));
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.logo{
+	margin-top: 10px;
+	display: block;
+}
+.mnu_top{
+	float: right;
+}
+.mnu_top a{
+	font-family: Arimo, Arial;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: rgba(0,0,0,0.3) 1px 2px;
+}
+.mnu_top li{
+	float: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mnu_top li a{
+	background-image: url(../img/bg/bg_pixel.png);	
+	display: block;
+	padding: 18px 11px 25px 6px;
+	background-repeat: repeat-x;
+}
+.mnu_top li.active a{
+	color: tomato;
+}
